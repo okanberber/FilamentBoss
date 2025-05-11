@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\okanb\\Desktop\\Yeni klas\u00F6r (2)\\FilamentBossWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1F8E26-D594-4973-845E-BA3D2282DAC6}|FilamentBossWebApp\\FilamentBossWebApp.csproj|c:\\users\\okanb\\desktop\\yeni klas\u00F6r (2)\\filamentbosswebapp\\filamentbosswebapp\\assets\\css\\memberlogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DA1F8E26-D594-4973-845E-BA3D2282DAC6}|FilamentBossWebApp\\FilamentBossWebApp.csproj|solutionrelative:filamentbosswebapp\\assets\\css\\memberlogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1F8E26-D594-4973-845E-BA3D2282DAC6}|FilamentBossWebApp\\FilamentBossWebApp.csproj|C:\\Users\\okanb\\Desktop\\Yeni klas\u00F6r (2)\\FilamentBossWebApp\\filamentbosswebapp\\assets\\css\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DA1F8E26-D594-4973-845E-BA3D2282DAC6}|FilamentBossWebApp\\FilamentBossWebApp.csproj|solutionrelative:filamentbosswebapp\\assets\\css\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberLogin.css",
+              "DocumentMoniker": "C:\\Users\\okanb\\Desktop\\Yeni klas\u00F6r (2)\\FilamentBossWebApp\\FilamentBossWebApp\\Assets\\css\\MemberLogin.css",
+              "RelativeDocumentMoniker": "FilamentBossWebApp\\Assets\\css\\MemberLogin.css",
+              "ToolTip": "C:\\Users\\okanb\\Desktop\\Yeni klas\u00F6r (2)\\FilamentBossWebApp\\FilamentBossWebApp\\Assets\\css\\MemberLogin.css",
+              "RelativeToolTip": "FilamentBossWebApp\\Assets\\css\\MemberLogin.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-10T20:51:15.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainStyle.css",
+              "DocumentMoniker": "C:\\Users\\okanb\\Desktop\\Yeni klas\u00F6r (2)\\FilamentBossWebApp\\FilamentBossWebApp\\Assets\\css\\MainStyle.css",
+              "RelativeDocumentMoniker": "FilamentBossWebApp\\Assets\\css\\MainStyle.css",
+              "ToolTip": "C:\\Users\\okanb\\Desktop\\Yeni klas\u00F6r (2)\\FilamentBossWebApp\\FilamentBossWebApp\\Assets\\css\\MainStyle.css",
+              "RelativeToolTip": "FilamentBossWebApp\\Assets\\css\\MainStyle.css",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAswHoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-10T20:42:49.532Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

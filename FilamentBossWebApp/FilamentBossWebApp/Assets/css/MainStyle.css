@@ -1,0 +1,376 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    /* background-color: #efefef;*/
+    font-family: Calibri;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.topBarContainer {
+    border-bottom: 1px solid silver;
+}
+
+.topBar {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topBarLeft {
+    float: left;
+    width: 300px;
+    padding: 15px 0;
+}
+
+.logo {
+    height: 48px;
+}
+
+.topbarRight {
+    float: right;
+    width: 500px;
+    padding: 32px 0;
+}
+
+    .topbarRight a {
+        text-decoration: none;
+        color: #4caf50;
+        padding-left: 20px;
+        float: right;
+    }
+
+.mainContainer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hello {
+    margin: 0 0 30px 0;
+}
+
+.categoryBar {
+    padding: 5px 0;
+    width: 198px;
+    float: left;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+    .categoryBar a {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid silver;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: #fafafa;
+        color: #4caf50;
+    }
+
+        .categoryBar a:hover {
+            background-color: #a4dba4;
+        }
+
+    .categoryBar h4 {
+        border-bottom: 1px solid silver;
+        padding: 10px 3px;
+    }
+
+.productBase {
+    width: 960px;
+    padding: 5px 20px;
+    float: left;
+}
+
+.productContainer {
+    width: 198px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    float: left;
+}
+
+    .productContainer:hover {
+        -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.32);
+        -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.32);
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.32);
+    }
+
+.productImage {
+    width: 200px;
+    min-height: 204px;
+}
+
+.addcart {
+    background-color: #a4dba4;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-radius: 3px;
+    padding: 10px 0;
+    margin-bottom: 7px;
+}
+
+    .addcart:hover {
+        background-color: #4caf50;
+    }
+
+.addToFavorites {
+    z-index: 10000;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 160px;
+}
+
+.validation-summary-errors {
+    padding: 15px;
+    color: darkred;
+    background-color: #fbb2b2;
+    border-radius: 5px;
+}
+
+    .validation-summary-errors ul {
+        list-style-type: none;
+    }
+
+        .validation-summary-errors ul li {
+            margin: 7px 0px;
+        }
+
+.validation-summary-success {
+    padding: 15px;
+    color: forestgreen;
+    background-color: #a4dba4;
+    border-radius: 5px;
+}
+
+    .validation-summary-success ul {
+        list-style-type: none;
+    }
+
+        .validation-summary-success ul li {
+            margin: 7px 0px;
+        }
+
+.validation-summary-warning {
+    padding: 15px;
+    color: #de9a1e;
+    background-color: #fbd38b;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    .validation-summary-warning ul {
+        list-style-type: none;
+    }
+
+        .validation-summary-warning ul li {
+            margin: 7px 0px;
+        }
+
+.pageTitle {
+    padding: 15px;
+    padding-top: 0;
+    margin: 15px 0;
+    margin-top: 0;
+    border-bottom: 2px solid #4caf50;
+}
+
+.tablo {
+    width: 100%;
+}
+
+    .tablo tr td {
+        border-bottom: 1px solid silver;
+    }
+
+.decreasebutton {
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-decoration: none;
+}
+
+.increasebutton {
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-decoration: none;
+}
+
+.deletebutton {
+    color: darkred;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+    .deletebutton:hover {
+        color: white;
+    }
+
+.quantity {
+    padding: 5px 25px;
+    border: 1px solid silver;
+}
+
+.totalTable {
+}
+
+    .totalTable tr th {
+        padding: 10px;
+        border-bottom: 1px solid silver;
+        font-weight: 100;
+    }
+
+    .totalTable .total th {
+        font-weight: 900;
+        font-size: 17pt;
+    }
+
+.gotobuy {
+    padding: 15px 100px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 15pt;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    display: table-cell;
+    text-decoration: none;
+}
+
+.totalTable .last td {
+    padding-top: 10px;
+    border: none;
+}
+
+.detailContainer {
+}
+
+.image {
+    float: left;
+    width: 360px;
+}
+
+    .image img {
+        width: 100%
+    }
+
+.detail {
+    padding-left: 20px;
+    float: left;
+    width: 580px;
+}
+
+.row {
+    padding: 15px 0px;
+}
+
+.priceRow {
+    font-size: 18pt;
+}
+
+.buyText {
+    font-size: 15pt;
+    padding: 5px;
+    padding-bottom: 7px;
+    width: 370px;
+}
+
+.buyButton {
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    padding: 14px 60px 10px 60px;
+    border: none;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.descriptionContainer {
+    padding-top: 30px;
+}
+
+.paymentcontainer {
+}
+
+    .paymentcontainer .title {
+        border: 1px solid rgba(0,0,0,0.32);
+        padding: 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: none;
+        background-color: forestgreen;
+        color: white;
+    }
+
+    .paymentcontainer .content {
+        border: 1px solid rgba(0,0,0,0.32);
+        padding: 20px;
+        padding-top: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-top: 20px;
+    }
+
+        .paymentcontainer .content .form {
+            width: 600px;
+            float: left;
+        }
+
+        .paymentcontainer .content .info {
+            width: 290px;
+            float: left;
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+
+        .paymentcontainer .content .form .row .half {
+            float: left;
+            width: 190px;
+            margin: 0 5px;
+        }
+
+.formTextbox {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.paymentcontainer .content .form .row {
+    padding: 5px 0px;
+}
+
+.validationmesage {
+    color: red;
+}
+
+.gotoHome {
+    padding: 10px 100px;
+    background-color: forestgreen;
+    color: white;
+    font-size: 15pt;
+    border-radius: 5px;
+    text-decoration: none;
+}

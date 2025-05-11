@@ -1,0 +1,45 @@
+﻿@model FilamentBossWebApp.Areas.ManagerPanel.Data.ManagerLoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Yönetici Giriş</title>
+    <link href="~/Areas/ManagerPanel/Assets/css/ManagerLogin.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="~/Areas/ManagerPanel/Assets/images/Filament Boss-Photoroom-Photoroom.png" />
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            if (ViewBag.mesaj != null)
+                {
+                    <div class="validation-summary-errors">
+                        @ViewBag.mesaj
+                    </div>
+                }
+            @Html.ValidationSummary()
+            <div class="row">
+
+                @Html.EditorFor(x => x.Mail, new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Mail Adresi" } })
+            </div>
+            <div class="row">
+                @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Şifre" } })
+            </div>
+            <div class="row">
+                @Html.EditorFor(x => x.RememberMe)<label for="RememberMe"> Beni Hatırla</label>
+            </div>
+            <div class="row">
+                <input type="submit" value="Giriş Yap" class="loginButton"/>
+            </div>
+        }
+    </div>
+</body>
+</html>

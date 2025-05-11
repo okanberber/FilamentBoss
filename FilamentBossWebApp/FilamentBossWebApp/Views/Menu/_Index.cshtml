@@ -1,0 +1,8 @@
+﻿
+@using FilamentBossWebApp.Models
+@model IEnumerable<Category>
+
+@foreach (Category item in Model)
+{
+    <a href="@Url.Action("Index","Home", new {Categoryid = item.ID})">@item.Name</a>
+}

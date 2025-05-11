@@ -1,0 +1,39 @@
+﻿/* Tablo Stili */
+table {
+    width: 100%;
+    border-collapse: separate; /* Kenarlıkların birleşmemesi için separate kullanıyoruz */
+    border-spacing: 0; /* Kenarlıklar arasındaki boşluğu sıfırlıyoruz */
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+/* Tablo başlıkları */
+th {
+    background-color: #4CAF50; /* Yeşil arka plan */
+    color: white; /* Beyaz yazı rengi */
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Sütunlar arası çizgiler */
+}
+
+/* Tablo hücreleri */
+td {
+    background-color: #f2f2f2; /* Açık gri arka plan */
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Sütunlar arası çizgiler */
+}
+
+/* Tabloyu hover yapınca satır rengi değişsin */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Alternatif satır renkleri */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}

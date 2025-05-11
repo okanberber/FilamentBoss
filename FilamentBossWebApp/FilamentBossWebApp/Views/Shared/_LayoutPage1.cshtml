@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title> FilamentBoss.com - @ViewBag.Title</title>
+    <link rel="icon" href="~/Assets/SiteImages/favicon_io/favicon.ico" type="image/x-icon">
+    <link href="~/Assets/css/MainStyle.css" rel="stylesheet" />
+    @RenderSection("styles", false)
+</head>
+<body>
+    <div id="top"></div>
+    <div class="topBarContainer">
+        <div class="topBar">
+            <div class="topBarLeft">
+                <img src="~/Assets/SiteImages/Filament Boss-Photoroom-Photoroom.png" class="logo" />
+            </div>
+            @if (Session["member"] != null)
+            {
+                <div class="topbarRight">
+                    <a href="@Url.Action("LogOut","Member")">Çıkış Yap</a>
+                    @*<a href="@Url.Action("Index","Cart")">Sepetim (@Session["cartcount"]) </a>*@
+                    <a href="@Url.Action("Index","Cart")">Sepetim (@Html.Action("_GetCartCount", "Home")) </a>
+                    <a href="@Url.Action("Index","Favorite")">Favoriler</a>
+                    <div class="clearfix"></div>
+                </div>
+            }
+            else
+            {
+                <div class="topbarRight">
+                    <a href="@Url.Action("Login","Member")">Sepetim (0) </a>
+                    <a href="@Url.Action("Login","Member")">Giriş Yap</a>
+                    <a href="@Url.Action("Register","Member")">Üye Ol</a>
+                </div>
+            }
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="mainContainer">
+        <div class="hello">
+            <img src="~/Assets/SiteImages/f838dbaf-ceb1-4982-8c5c-c396aa1e8d65.__CR0,0,970,300_PT0_SX970_V1___.jpg" style="width:100%; border:1px solid silver" />
+        </div>
+        <div class="categoryBar">
+            <h4> Kategoriler </h4>
+            @Html.Action("_Index", "Menu")
+        </div>
+        <div class="productBase">
+            @RenderBody()
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>

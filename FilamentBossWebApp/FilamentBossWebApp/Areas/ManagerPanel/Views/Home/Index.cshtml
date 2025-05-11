@@ -1,0 +1,57 @@
+﻿@model List<FilamentBossWebApp.Models.XmlProduct>
+
+@{
+    ViewBag.Title = "Ana sayfa";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@section styles
+{
+    <link href="~/Areas/ManagerPanel/Assets/css/FormStyle.css" rel="stylesheet" />
+    <link href="~/Areas/ManagerPanel/Assets/css/xml.css" rel="stylesheet" />
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.UpdateMessage))
+{
+    <div class="alert alert-info">
+        @ViewBag.UpdateMessage
+    </div>
+}
+
+<form method="post" action="@Url.Action("ReloadXml")">
+    <button type="submit" class="btn btn-primary">Verileri Yenile</button>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>CategoryID</th>
+            <th>BrandID</th>
+            <th>CategoryName</th>
+            <th>BrandName</th>
+            <th>ProductName</th>
+            <th>Piece</th>
+            <th>Price</th>
+            <th>Diameter</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.CategoryID</td>
+                <td>@item.BrandID</td>
+                <td>@item.CategoryName</td>
+                <td>@item.BrandName</td>
+                <td>@item.ProductName</td>
+                <td>@item.Piece</td>
+                <td>@item.Price</td>
+                <td>@item.Diameter</td>
+                <td>@item.Color</td>
+            </tr>
+        }
+    </tbody>
+</table>
