@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProducts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products>
+    <ID>21</ID>
+    <CategoryID>12</CategoryID>
+    <CategoryName>PLA</CategoryName>
+    <CategoryDescription>Polylactic Acid</CategoryDescription>
+    <ProductName>Microzey</ProductName>
+    <Piece>100</Piece>
+    <Price>396.90</Price>
+    <Diameter>1.75mm</Diameter>
+    <Color>Beyaz</Color>
+    <Description>Erime sıcaklığı = 200-230</Description>
+    <IsActive>true</IsActive>
+  </Products>
+  <Products>
+    <ID>22</ID>
+    <CategoryID>12</CategoryID>
+    <CategoryName>PLA</CategoryName>
+    <CategoryDescription>Polylactic Acid</CategoryDescription>
+    <ProductName>Porima</ProductName>
+    <Piece>100</Piece>
+    <Price>799.68</Price>
+    <Diameter>1.75mm</Diameter>
+    <Color>Beyaz</Color>
+    <Description>Erime sıcaklığı = 200-230</Description>
+    <IsActive>true</IsActive>
+  </Products>
+  <Products>
+    <ID>23</ID>
+    <CategoryID>12</CategoryID>
+    <CategoryName>PLA</CategoryName>
+    <CategoryDescription>Polylactic Acid</CategoryDescription>
+    <ProductName>Esun</ProductName>
+    <Piece>50</Piece>
+    <Price>571.3792</Price>
+    <Diameter>1.75mm</Diameter>
+    <Color>Beyaz</Color>
+    <Description>Erime sıcaklığı = 200-230</Description>
+    <IsActive>true</IsActive>
+  </Products>
+  <Products>
+    <ID>24</ID>
+    <CategoryID>13</CategoryID>
+    <CategoryName>ABS</CategoryName>
+    <CategoryDescription>Acrylonitrile Butadiene Styrene</CategoryDescription>
+    <ProductName>Esun</ProductName>
+    <Piece>60</Piece>
+    <Price>1185.80</Price>
+    <Diameter>1.75mm</Diameter>
+    <Color>Siyah</Color>
+    <Description>Erime sıcaklığı = 230-250</Description>
+    <IsActive>true</IsActive>
+  </Products>
+</ArrayOfProducts>

@@ -1,0 +1,6 @@
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

@@ -1,0 +1,17 @@
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\bin\Debug\FilamentBossApp.exe.config
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\bin\Debug\FilamentBossApp.exe
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\bin\Debug\FilamentBossApp.pdb
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.csproj.AssemblyReference.cache
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.AdminLogin.resources
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.Properties.Resources.resources
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.csproj.GenerateResource.cache
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.csproj.CoreCompileInputs.cache
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.exe
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.pdb
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.FilamentBossMainForm.resources
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\bin\Debug\DataAccessLayer.dll
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\bin\Debug\DataAccessLayer.pdb
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\Filament.1157AB3C.Up2Date
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.KategoriIslemleri.resources
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.UrunIslemleri.resources
+C:\Users\okanb\Desktop\FilamentBossApp\FilamentBossApp\FilamentBossApp\obj\Debug\FilamentBossApp.MarkaIslemleri.resources

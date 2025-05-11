@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProducts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Products>
+    <ID>1</ID>
+    <CategoryID>5</CategoryID>
+    <BrandID>1</BrandID>
+    <CategoryName>ABS</CategoryName>
+    <BrandName>ESUN</BrandName>
+    <ProductName>Filament</ProductName>
+    <Piece>5</Piece>
+    <Price>30.60</Price>
+    <Diameter>3</Diameter>
+    <Color>beyaz</Color>
+  </Products>
+</ArrayOfProducts>
